@@ -153,15 +153,15 @@ h1{
 
 .card-header {
   padding: 20px;
-  background-color: #008000;
-  color: #fff;
+  background-color: lightgrey;
+  color: green;
   text-align: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 .card-bottom {
   padding: 20px;
-  background-color: white;
+  background-color: whitesmoke;
   color: #fff;
   
   
@@ -169,15 +169,13 @@ h1{
 
 .card-body {
   padding: 15px;
-  font-size: 130%;
+  
 }
 #bid-button{
-  background-color: transparent;
+  background-color: lightgrey;
   border-style: solid;
-  border-color: green;
+  border: none;
   padding: 7px;
-  color: green;
- font-size: 120%;
   border-radius: 7px;
 }
 
