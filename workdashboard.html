@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <title>Globall contents</title>
+  <link rel="stylesheet" type="text/css" href="./workdashboard.css">
+  <script defer src="./workdashboard.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+  <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+  <link rel="icon" type="image/png" href="currency.png"> 
+  </head>
+<body>
+  
+  <div class="topnav">
+    <a> <img src="logo4.png" alt="Profile" width="60" height="60"></a>
+    <a href="#">Tasks</a>
+      <a href="#">Completed</a>
+      <a href="#">Pending</a>
+      <a href="#">Payments</a>
+      <a href="#">Pending</a>
+      <a href="#">Payments</a>
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search for jobs">
+        <i class="fa fa-search search-icon" onclick="search()" style="cursor: pointer"></i>
+         </div>
+         <div class="notification-container">
+          <i class="material-icons" style="padding: 9px;">notifications_none</i>
+          <i class="material-icons">mail</i>
+          </div>
+
+      </div>
+  <div class="profile-icon" onclick="toggleProfile()">
+    <img src="more.png" alt="Profile" width="30" height="30" style="padding-bottom: 20px;"><br>
+  
+        </div>
+        <div class="search-container2">
+          <input type="text" class="search-input" placeholder="Search for jobs">
+          <i class="fa fa-search search-icon" onclick="search()" style="cursor: pointer"></i>
+           </div><br>
+        
+  <div class="profile-section" id="profileSection">
+      <img src="user.png" alt="Profile" width="70" height="70" style="float: center;"><br>
+    <p>User: <b style="color: rgb(53, 15, 221);" id="username-display"></b></p>
+    <p>Phone: <b style="color: rgb(0, 0, 255);" id="account_phonenumber"></b></p>
+    <p>Email:<b id="account_email"></b></p>
+    <p>Balance: <b id="account_ballance"></b></p>
+<div class="headings">
+    <a href="about.html">Search Tasks</a>
+        <a href="#contact">Pending Tasks</a>
+        <a href="about.html">Completed jobs</a>
+        <a href="#contact">Payments</a>
+      </div>
+        <section id="logoutsecction">
+      <b>Log out</b>
+        </section>
+  </div>
+  </div>
+
+<div class="overlay" onclick="hideProfile()"></div>
+
+<div class="body">
+  <h1>Globall Contents</h1>
+  
+  <div class="card-container">
+    <div class="jobs">
+      <div class="card-header">
+        Copy writing Job
+      </div>
+      <div class="card-body">
+        <div id="section1"></div>
+      </div>
+      <div class="card-bottom">
+       <button id = "bid-button">Bid this job</button>
+       <button id = "bid-button">Bid for this job</button>
+       <button id = "bid-button">Bid for this job</button>
+       </div>
+    </div>
+  
+    <div class="bio">
+      <div class="card-header">
+        Profile
+      </div>
+      <div class="card-body">
+        <p>This is the content of the short card.</p>
+      </div>
+    </div>
+    <div class="jobs">
+      <div class="card-header">
+        The most recent job
+      </div>
+      <div class="card-body">
+        <p>This is the content of the long card.</p>
+        <p>This card is much longer than the other card.</p>
+        <p>This is the content of the long card.</p>
+        <p>This card is much longer than the other card.</p>
+        <p>This is the content of the long card.</p>
+        <p>This card is much longer than the other card.</p>
+      </div>
+    </div>
+    <div class="jobs">
+      <div class="card-header">
+        The most recent job
+      </div>
+      <div class="card-body">
+        <p>This is the content of the long card.</p>
+        <p>This card is much longer than the other card.</p>
+        <p>This is the content of the long card.</p>
+        <p>This card is much longer than the other card.</p>
+        <p>This is the content of the long card.</p>
+        <p>This card is much longer than the other card.</p>
+      </div>
+    </div>
+    <div class="jobs">
+      <div class="card-header">
+        The most recent job
+      </div>
+      <div class="card-body">
+        <p>This is the content of the long card.</p>
+        <p>This card is much longer than the other card.</p>
+        <p>This is the content of the long card.</p>
+        <p>This card is much longer than the other card.</p>
+        <p>This is the content of the long card.</p>
+        <p>This card is much longer than the other card.</p>
+      </div>
+    </div>
+  </div>
+    </var></div>
+<div class="footer">
+  <div class="footer-section">
+    <h3>Contact Us</h3>
+    <p>Email: info@example.com</p>
+    <p>Phone: 123-456-7890</p>
+  </div>
+  <div class="footer-section">
+    <h3>Follow Us</h3>
+    <p>Twitter: @example</p>
+    <p>Facebook: /example</p>
+  </div>
+</div>
+
+</body>
+</html>
